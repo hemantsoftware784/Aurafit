@@ -1,0 +1,6 @@
+{
+  "name": "AURA FIT - Advanced Clothing E-Commerce",
+  "description": "Define your style. Own your aura. Premium luxury streetwear, oversized apparel, advanced pricing, inventory, and complete admin control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

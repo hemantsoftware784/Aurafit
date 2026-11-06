@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --color-aura-black: #090a0b;
+  --color-aura-charcoal: #121316;
+  --color-aura-card: #18191d;
+  --color-aura-border: #27282e;
+  --color-aura-silver: #d1d5db;
+  --color-aura-silver-light: #f3f4f6;
+  --color-aura-accent: #e5e7eb;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0c0d0f;
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2d35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3e414c;
+}
